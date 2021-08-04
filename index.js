@@ -22,7 +22,7 @@ function  deleteFromDriverByKey(obj, key){
 
 
 function destructivelyDeleteFromDriverByKey(obj, key) {
-    Object.assign({}, obj);
+    // Object.assign({}, obj);
     delete obj[key];
     return obj;
     }
